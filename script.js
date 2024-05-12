@@ -188,7 +188,7 @@ particlesJS("particles-js", {
 
 
 function random_meme() {
-    let api = 'https://celestial-dainsleif-v2.onrender.com/programeme';
+    let api = 'https://celestial-dainsleif-v2.onrender.com/programeme'; /* base: https://celestial-dainsleif-v2.onrender.com/api-docs */
   
     fetch(api)
       .then(res => {
